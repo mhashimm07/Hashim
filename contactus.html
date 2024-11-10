@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="stylesforproject.css">
+<style>
+.contact-container {
+            text-align: center;
+            padding: 50px;
+        }
+        .contact-container h2 {
+            color: black;
+        }
+        .contact-container p {
+            color: black;
+            font-size: 16px;
+        }
+        .contact-form {
+            display: inline-block;
+            text-align: left;
+        }
+        .contact-form label {
+            display: block;
+            margin-top: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #38444d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 30px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: red;
+        }
+</style>
+</head>
+<figure>
+    <img src="IMG_20210524_112949-removebg-preview.jpeg" height="100">
+   <center> <figcaption>Perinthalmanna/Hyderabad/Dubai</figcaption></center>
+  </figure>
+  <body>
+  <ul>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Menu</a>
+      <div class="dropdown-content">
+        <a href="aboutus.html">About us</a>
+        <a href="contactus.html">Contact us</a>
+        </div>
+    <li><a href="Home.html">Home</a></li>
+    <li><a href="Services.html">Services</a></li>
+  </li>
+  </ul>
+  
+<div class="contact-container">
+    <h2>Contact Us</h2>
+    <p>We are here to help you plan your next adventure. Reach out to us using the form below or give us a call.</p>
+    <p><strong>Phone:</strong> <a href="tel:8075683261">8075683261</a></p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/8075683261">Chat with us on WhatsApp</a></p>
+    <p><strong>Email:</strong> <a href="mailto:hashimkp2005@gmail.com.com">info@easytravels.com</a></p>
+    <p><strong>Instagram:</strong> <a href="https://www.instagram.com/m_hashim07?igsh=MW9maGZldjd2MmZqcg==">easytravels.llp</a></p>
+    <div class="contact-form">
+        <form action="submit_contact_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" placeholder="Your Phone Number" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</div>
+<footer>
+  <p>&copy; 2024 Easy Travels. All rights reserved.</p>
+  <div class="footer-links">
+      <a href="Home.html">Home</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="contactus.html">Contact Us</a>
+      <a href="https://www.instagram.com/m_hashim07?igsh=MW9maGZldjd2MmZqcg==">Instagram</a>
+  </div>
+  <p>Contact us at <a href="tel:8075683261">8075683261</a></p>
+</footer>
+
+</body>
+</html>
